@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Kashmir</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheet" rel="style.css">
+
+
+    <style>
+        /* Targeting images with both `img-fluid` and `rounded` classes */
+        .img-fluid.rounded {
+            height: 200px; /* Set a consistent height */
+            width: 100%; /* Ensure the image spans its container */
+            object-fit: cover; /* Maintain aspect ratio and crop excess */
+        }
+    </style>
+
+
+</head>
+
+
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Discover Kashmir</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Attractions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-light bg-dark text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to Kashmir</h1>
+            <p class="lead">Experience the beauty of the "Paradise on Earth."</p>
+            <a href="#features" class="btn btn-success btn-lg">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Fascinating Points of Kashmir</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="new2.jpg" class="card-img-top" alt="Dal Lake">
+                        <div class="card-body">
+                            <h5 class="card-title">Leepa Valley</h5>
+                            <p class="card-text">Leepa Valley is a breathtakingly beautiful valley located in Azad Kashmir, often referred to as "Mini Kashmir"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src=" Muzafrabad AJK PAKISTAN.jpg " class="card-img-top" alt="Gulmarg">
+                        <div class="card-body">
+                            <h5 class="card-title">Muzaffarabad</h5>
+                            <p class="card-text">Muzaffarabad is the capital of Azad Kashmir in Pakistan.  It is located on the banks of the Jhelum and Neelum rivers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="Neelum Valley Azad Kashmir.jpg" class="card-img-top" alt="Pahalgam">
+                        <div class="card-body">
+                            <h5 class="card-title">Neelum Valley</h5>
+                            <p class="card-text">Neelum Valley is situated at the North & North-East of Muzaffarabad Azad Kashmir, running parallel to Kaghan Valley.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-5">Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-3"><img src="Snowfall in Kashmir.jpg" class="img-fluid rounded" alt="Gallery Image 1"></div>
+                <div class="col-md-3"><img src="neelum1.jpg    " class="img-fluid rounded" alt="Gallery Image 2"></div>
+                <div class="col-md-3"><img src=" I will make cozy rain ambient video with natural sound,relaxing rain video Freelance Journalism.jpg" class="img-fluid rounded" alt="Gallery Image 3"></div>
+                <div class="col-md-3"><img src=" naluchi_bridge_night_view_15_1558304678.webp" class="img-fluid rounded" alt="Gallery Image 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-light">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you!</p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control mb-3" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control mb-3" placeholder="Your Email">
+                    </div>
+                </div>
+                <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn-success">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>&copy; 2025 Discover Kashmir. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+</body>
+</html>
